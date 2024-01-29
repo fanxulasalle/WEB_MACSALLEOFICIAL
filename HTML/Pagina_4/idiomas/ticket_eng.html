@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Order - MacSalle</title>
+    <link rel="stylesheet" href="/HTML/CSS/reset.css">
+    <link rel="stylesheet" href="/HTML/CSS/ticket.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <article class="ticket">
+        <header>
+            <span id="order-number"><h1>520</h1></span>
+        </header>
+        <section>
+            <p>MacSalle restaurant<br>Plaça del Nord, 14, Gràcia, 08024 <br>Barcelona <br>B72388192 <br> Tel: 932 92 21 18</p>
+            <p id="caption">SIMPLIFIED INVOICE<br>Num: 00000214020402032023</p>
+            <hr>
+            <table>
+                <thead>
+                    <tr class="col-0">
+                        <th id="numped">Order number: 45</th>
+                    </tr>
+                    <tr class="col-1">
+                        <th><time id="current-date" datetime="2024-01-09"></time></th>
+                    </tr>
+                    <tr class="col-2">
+                        <th scope="col">CANT.</th>
+                        <th scope="col">Article</th>
+                        <th scope="col">TOTAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="quantity">1</td>
+                        <td>Chicken burger</td>
+                        <td class="price">5.00€</td>
+                    </tr>
+                    <tr>
+                        <td class="quantity">2</td>
+                        <td>Double burger</td>
+                        <td class="price">4.50€</td>
+                    </tr>
+                    <tr>
+                        <td class="quantity">1</td>
+                        <td>Vegan burger</td>
+                        <td class="price">4.00€</td>
+                    </tr>
+                    <tr>
+                        <td class="quantity">1</td>
+                        <td>Ice cream</td>
+                        <td class="price">2.00€</td>
+                    </tr>
+                    <tr>
+                        <td class="quantity">2</td>
+                        <td>Cola Cola</td>
+                        <td class="price">2.50€</td>
+                    </tr>
+                    <tr>
+                        <td class="quantity">1</td>
+                        <td>Nestea</td>
+                        <td class="price">2.50€</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="tfoot" colspan="2">Total EUR (IVA included)</td>
+                        <td id="total-price">0.00€</td>
+                    </tr>
+                </tfoot>                
+            </table>
+        </section>
+        <footer>
+            <p>Rate your visit from the MacSalle APP<br>
+                and get a 10% discount<br>
+                www.macsalle.com<br>
+                Thanks for your visit<br>
+                Check takeout orders</p>
+        </footer>
+        <hr>
+    </article>
+</body>
+</html>
